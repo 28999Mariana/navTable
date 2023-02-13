@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
 body{
     margin:0;
     display: flex;
@@ -53,6 +55,14 @@ ul li a{
     font-size: 16px;
 }
 
+ table tr td{
+    font-family: 'Dancing Script', cursive;
+    background-color: aqua;
+}
+
+
+
+
 table{
     padding-top: 15%;
     
@@ -76,7 +86,7 @@ table tr td{
     width: 100px;
     height: 40px;
     top:20%;
-    font-weight: 5px;
+    font-weight: 12px;
     border-width: 2px;
     border-style: solid;
     border-radius: 20px;
@@ -84,6 +94,9 @@ table tr td{
     font-family: sans-serif;
     color:white;
     text-align: center;
+    border-color: rgb(255, 0, 55);
+    letter-spacing: 2px;
+    
     
 
 }
